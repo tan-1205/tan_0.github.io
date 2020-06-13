@@ -1,0 +1,59 @@
+header {
+  background-color:#313131;
+  color:white;
+  height:80px:
+  width:100%;
+  margin:0px;
+  padding:0px;
+}
+
+.title{
+  margin: 0;
+}
+
+.menu {
+  height:50px;
+  background-color:#eeeeee;
+  font-weight:bold;
+  mergin:0px;
+}
+
+body{
+  background-image:url(http://drive.google.com/uc?export=view&id=1WYMqEC3JgKxoUU1HYv5uyMwVjfE2MUzO);
+  margin: 0;
+}
+
+nav{
+text-align: center;
+}
+nav ul{
+margin: 0 ;
+padding: 0 ;
+}
+nav li{
+list-style: none;
+display: inline-block;
+width: 10%;
+min-width: 90px;
+}
+nav li:not(:last-child){
+border-right:2px solid #ddd;
+}
+nav a{
+text-decoration: none;
+color: #333;
+}
+nav a.current{
+color: #00B0F0;
+border-bottom:2px solid #00B0F0;
+}
+nav a:hover{
+color:#F7CB4D;
+border-bottom:2px solid #F7CB4D;
+}
+
+.profile{
+  height:800px;
+  background-color:white;
+  margin:30px 100px
+}
